@@ -1,0 +1,13 @@
+Remainder provenance archive — repository state
+
+HEAD commit    : 822f978bf6add6622d030e03036a6bf25bd41a1f
+committed at   : 2026-09-30T23:07:04+08:00
+commits in repo: 335
+stamped on     : 2026-09-30
+remote         : https://github.com/thedunc101/remainder-provenance.git
+
+A git commit hash is the root of a Merkle tree over the whole history, so a
+timestamp on this file proves that every commit, file and version behind that
+hash existed by the date the Bitcoin block was mined.
+
+Verify with:  ots verify HEAD_2026-09-30.txt.ots
