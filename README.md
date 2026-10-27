@@ -64,6 +64,14 @@ happening for another month. Ninety per cent of the refusals that name a chapter
 five-chapter block. [`MODEL_REFUSALS.md`](MODEL_REFUSALS.md) counts every one and sets out what the
 clustering appears to mean — and what it does not establish.
 
+**The chapter at the centre of that clustering is not in the book, and its text is not
+here either.** A chapter called Release was written on 19 September 2026, reached 8,455
+words, was open on three of the four refusal days the record names chapters for, and
+survives in none of the 25 chapters. Withholding it is a decision, so
+[`THE_REMOVED_CHAPTER.md`](THE_REMOVED_CHAPTER.md) publishes its dates, word counts and
+SHA-256 sums in place of its prose. That fixes what was being held on the day this
+repository went up, and lets anyone check a later release against it.
+
 **The book was cut by more than a third.** It reached a complete draft of 95,012 words on 30 September.
 A replot on 9 October cut it to 25 chapters, planned at about 75,000 words; the rewrite
 landed at 60,682 on 10 October, and revision brought it to 58,283 by 25 October. Most chapter titles changed and
@@ -100,6 +108,7 @@ Models reviewing models proves very little on its own.
 |---|---|
 | What happened on a given day, who did it, and why it mattered | [`BOOK_HISTORY.md`](BOOK_HISTORY.md) |
 | Every time a model refused to process the book | [`MODEL_REFUSALS.md`](MODEL_REFUSALS.md) |
+| The chapter that was cut, and why its text is withheld | [`THE_REMOVED_CHAPTER.md`](THE_REMOVED_CHAPTER.md) |
 | The formal authorship claim, stage by stage | [`PROVENANCE.json`](PROVENANCE.json) |
 | What is claimed, and what is not | the section below |
 | How the figures above were produced | [`tools/`](tools/) |
@@ -121,6 +130,11 @@ was a month out of date and stopped at chapter 19, so it was pulled rather than 
 **The ending.** Chapter 25 is 957 words and the logs happen to cover all of it. Its prose is removed
 wherever it appears, and each removal carries its word count and the first 16 hex digits of a SHA-256 of what was
 taken, so anyone given the private archive can confirm that only that was removed.
+
+**The cut chapter.** Release, 8,455 words at its longest, 91 surviving versions, in none
+of the 25 chapters the book now has. Its measurements are published and its text is not;
+[`THE_REMOVED_CHAPTER.md`](THE_REMOVED_CHAPTER.md) sets out the three reasons, the first
+of which is the rule stated above.
 
 **Nothing else of the book.** That is a decision rather than an oversight, so here is
 the number, measured on 25 October 2026 against the 25 chapters as they now stand:
